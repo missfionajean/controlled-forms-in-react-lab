@@ -28,13 +28,11 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	min-width: 100vw;
-	min-height: 100vh;
+
 }
 
 h1 {
-	font-size: 3.2em;
-	line-height: 1.1;
+	font-size: 3em;
 }
 
 button {
@@ -60,6 +58,7 @@ form {
 	display: flex;
 	flex-direction: column;
 	width: 90%;
+    gap: 0.7em;
 }
 
 input {
@@ -87,8 +86,8 @@ input {
 
 .bookCardsDiv {
 	display: flex;
-	flex-direction: column;
 	flex-wrap: wrap;
+    justify-content: center;
 	width: 90%;
 	margin-top: 20px;
 }
@@ -100,8 +99,9 @@ input {
 	flex-direction: column;
 	border: 1px solid white;
 	padding: 5px;
-	width: 40%;
-	margin: 15px 10px;
+    width: 22%;
+    height: 10em;
+	margin: 5px 5px;
 	background-color: rgb(155, 155, 155);
 	color: black;
 }

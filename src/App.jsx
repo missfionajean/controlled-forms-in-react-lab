@@ -1,5 +1,12 @@
+import Bookshelf from "./Bookshelf.jsx";
+
 const App = () => {
-	return <h1>Hello world!</h1>;
+	return (
+		<body>
+			<h1>Fiona's Bookshelf</h1>
+			<Bookshelf />
+		</body>
+	);
 };
 
 export default App;
